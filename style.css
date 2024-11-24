@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 h1 {
   font-family: Bahnschrift Condensed;
   color:darkgreen;
@@ -14,13 +28,13 @@ h3 {
 }
 
 ul {
-  font-family: Calibri, sans-serif;
+  font-family: Arial Narrow, sans-serif;
   font-weight: normal;
   color:rgb(255, 255, 255);
 }
 
 ol {
-  font-family: Calibri, sans-serif;
+  font-family: Arial Narrow, sans-serif;
   font-weight: normal;
   color:rgb(255, 255, 255);
 }
@@ -39,13 +53,14 @@ h4 {
 }
 
 .background-container1 {
-  position:relative;
+  position: relative;
   width: 100%;
-  height: 1000px;
+  min-height: 100vh;
   background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-green-blur-light-point-background-spotartistic-conceptionbackground-image_56161.jpg');
-  background-size:cover;
-  background-position:center;
+  background-size: cover;
+  background-position: center;
 }
+
 
 
 a[href*='imdb'] {
@@ -54,4 +69,26 @@ a[href*='imdb'] {
 
 a:hover {
   color:darkgreen;
+}
+
+.subtit {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+ul, ol {
+  margin-left: 40px;
+}
+
+body {
+  font-size: 30px;
+}
+
+.titles-container {
+  display: flex;
+  gap: 200px;
 }
